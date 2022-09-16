@@ -6,6 +6,12 @@
   "scripts": {
     "dev": "webpack serve"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rellison192/react-playground.git"
